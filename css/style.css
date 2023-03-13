@@ -47,21 +47,15 @@ a:hover {
   color: #ff3530;
 }
 
-.
+.author, .time {
+  font-size: .85rem;
+}
 
+.author {
+  margin-bottom: 0;
+}
 
-8. Style links to
-  - Use the same text color set as default in body
-  - Have an `underline` by default
-  - On hover, underline disappears
-  - On hover, color of link changes to `#ff3530`
-
-9. Text using class of `author` and `time` element
-  - Font size `.85rem` 
-
-10. Select the text using class of `author`
-  - Add `margin-bottom: 0;`  
-
-11. Select the figure element
-  - Add `margin: 1.25em 0;`    
+.figure {
+  margin: 1.25em 0;
+}
 
